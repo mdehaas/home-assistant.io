@@ -124,7 +124,7 @@ group:
 Optional configuration example for ser2net:
 
 ```sh
-# Example /etc/ser2net.conf for proxying USB/serial connections to DSMRv4 smart meters
+# Example /etc/ser2net.conf for proxying USB/serial connections to DSMRv4/v5 smart meters
 2001:raw:600:/dev/ttyUSB0:115200 NONE 1STOPBIT 8DATABITS XONXOFF LOCAL -RTSCTS
 ```
 or
